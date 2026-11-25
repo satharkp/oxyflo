@@ -55,8 +55,8 @@ export default function RoofEstimator() {
 
   return (
     <section className="bg-[#f5f8f8] py-16 sm:py-20" id="estimator">
-      <div className="mx-auto max-w-[1380px] px-5 sm:px-8">
-        <div className="mb-12 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+      <div className="mx-auto max-w-[1380px] px-4 sm:px-8">
+        <div className="mb-8 flex flex-col justify-between gap-4 sm:mb-12 md:flex-row md:items-end">
           <div>
             <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">
               Planning tool
@@ -73,15 +73,15 @@ export default function RoofEstimator() {
           </div>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-12">
+        <div className="grid min-w-0 gap-5 sm:gap-8 lg:grid-cols-12">
           {/* Configuration Controls */}
-          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-7 lg:col-span-7">
-            <h3 className="mb-6 font-heading text-lg font-bold text-[#0e323a]">Project details</h3>
+          <div className="min-w-0 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-6 lg:col-span-7 lg:p-7">
+            <h3 className="mb-5 font-heading text-lg font-bold text-[#0e323a] sm:mb-6">Project details</h3>
 
             {/* Facility Type */}
             <div className="mb-6">
               <label className="mb-2 block text-sm font-semibold text-[#29464d]">Building type</label>
-              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 xl:grid-cols-3">
+              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
                 {[
                   { id: 'residential', label: 'Contemporary Residential / Villa' },
                   { id: 'commercial', label: 'Commercial Complex / Resort' },
@@ -94,7 +94,7 @@ export default function RoofEstimator() {
                     type="button"
                     onClick={() => setCalcBuilding(t.id)}
                     aria-pressed={calcBuilding === t.id}
-                    className={`rounded-xl border p-3 text-left text-xs font-bold transition ${
+                    className={`min-h-11 rounded-xl border p-3 text-left text-xs font-bold leading-snug transition ${
                       calcBuilding === t.id
                       ? 'border-[#0785ad] bg-cyan-50 text-[#0e323a] ring-1 ring-[#0785ad]'
                         : 'border-slate-300 bg-slate-50 text-slate-700 hover:border-slate-400 hover:bg-slate-100 hover:text-slate-900'
@@ -145,7 +145,7 @@ export default function RoofEstimator() {
                     type="button"
                     onClick={() => setCalcClimate(c.id)}
                     aria-pressed={calcClimate === c.id}
-                    className={`rounded-xl border p-3 text-left text-xs font-bold transition ${
+                    className={`min-h-11 rounded-xl border p-3 text-left text-xs font-bold leading-snug transition ${
                       calcClimate === c.id
                       ? 'border-[#0785ad] bg-cyan-50 text-[#0e323a] ring-1 ring-[#0785ad]'
                         : 'border-slate-300 bg-slate-50 text-slate-700 hover:border-slate-400 hover:bg-slate-100 hover:text-slate-900'
@@ -160,7 +160,7 @@ export default function RoofEstimator() {
             {/* Roof Pitch */}
             <div>
               <label className="mb-2 block text-sm font-semibold text-[#29464d]">Roof pitch / slope</label>
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
                 {[
                   { id: 'low', label: 'Low Slope (5° - 15°)' },
                   { id: 'medium', label: 'Standard Sloping (15° - 30°)' },
@@ -171,7 +171,7 @@ export default function RoofEstimator() {
                     type="button"
                     onClick={() => setCalcPitch(p.id)}
                     aria-pressed={calcPitch === p.id}
-                    className={`rounded-xl border p-3 text-center text-xs font-bold transition ${
+                    className={`min-h-11 rounded-xl border p-3 text-left text-xs font-bold leading-snug transition sm:text-center ${
                       calcPitch === p.id
                       ? 'border-[#0785ad] bg-cyan-50 text-[#0e323a] ring-1 ring-[#0785ad]'
                         : 'border-slate-300 bg-slate-50 text-slate-700 hover:border-slate-400 hover:bg-slate-100 hover:text-slate-900'
@@ -186,7 +186,7 @@ export default function RoofEstimator() {
 
           {/* Estimation Calculation Output Card */}
           <div
-            className="flex flex-col justify-between rounded-2xl border border-white/10 p-5 text-white shadow-[0_16px_40px_rgba(6,23,27,0.16)] sm:p-7 lg:col-span-5"
+            className="flex min-w-0 flex-col justify-between rounded-2xl border border-white/10 p-4 text-white shadow-[0_16px_40px_rgba(6,23,27,0.16)] sm:p-6 lg:col-span-5 lg:p-7"
             style={{ backgroundColor: '#06171b' }}
           >
             <div>
@@ -201,7 +201,7 @@ export default function RoofEstimator() {
 
               <div className="mt-6">
                 <div className="text-sm font-medium text-slate-300">Recommended profile</div>
-                <div className="mt-2 font-heading text-xl font-bold leading-snug text-white sm:text-2xl">
+                <div className="mt-2 break-words font-heading text-lg font-bold leading-snug text-white sm:text-2xl">
                   {estimationResult.recSystem}
                 </div>
                 <div className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1.5 text-xs font-semibold text-cyan-200">
