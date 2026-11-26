@@ -15,7 +15,7 @@ export default function ProductCatalog() {
         {/* Header with filters */}
         <div className="mb-12 flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
           <div>
-            <span className="mb-2 block text-[11px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">
+            <span className="mb-2 block text-[13px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">
               Roofing range
             </span>
             <h2 className="font-heading text-2xl font-bold tracking-tight text-[#0e323a] sm:text-3xl">

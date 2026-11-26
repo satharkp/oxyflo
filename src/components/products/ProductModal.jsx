@@ -65,7 +65,7 @@ export default function ProductModal({ product, onClose }) {
           <dl className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
             {product.specs.map(([k, v]) => (
               <div key={k} className="border-b border-slate-200 pb-2">
-                <dt className="text-slate-500 font-medium text-[11px]">{k}</dt>
+                <dt className="text-slate-500 font-medium text-[13px]">{k}</dt>
                 <dd className="font-bold text-slate-900 text-xs mt-0.5">{v}</dd>
               </div>
             ))}

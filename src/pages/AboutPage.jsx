@@ -17,7 +17,7 @@ export default function AboutPage() {
       <section className="bg-white py-14 sm:py-20">
         <div className="mx-auto grid max-w-[1180px] items-center gap-10 px-5 sm:px-8 lg:grid-cols-2 lg:gap-16">
           <div>
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">Our company</p>
+            <p className="text-[13px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">Our company</p>
             <h2 className="mt-2 font-heading text-3xl font-bold leading-tight text-[#0e323a] sm:text-4xl">A roofing range from Hadhi Aqua Lines.</h2>
             <p className="mt-5 text-sm leading-7 text-slate-600">OxyFlo brings together roof profiles for residential, commercial, and industrial projects. The range includes stone-coated steel sheets in architectural styles and layered UPVC sheets in Wave and Trapezoidal profiles.</p>
             <p className="mt-4 text-sm leading-7 text-slate-600">Our team is based in Palakkad, Kerala. We help customers compare profiles, finishes, and project requirements before choosing a system.</p>
@@ -33,7 +33,7 @@ export default function AboutPage() {
       <section className="py-14 sm:py-20">
         <div className="mx-auto max-w-[1180px] px-5 sm:px-8">
           <div className="mb-8 max-w-2xl">
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">What we offer</p>
+            <p className="text-[13px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">What we offer</p>
             <h2 className="mt-2 font-heading text-2xl font-bold text-[#0e323a] sm:text-3xl">A profile for the way you want to build.</h2>
           </div>
           <div className="grid gap-4 md:grid-cols-3">
@@ -51,7 +51,7 @@ export default function AboutPage() {
       <section className="border-y border-slate-200 bg-white py-10 sm:py-12">
         <div className="mx-auto flex max-w-[1180px] flex-col gap-6 px-5 sm:px-8 md:flex-row md:items-center md:justify-between">
           <div>
-            <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">Visit or get in touch</p>
+            <p className="text-[13px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">Visit or get in touch</p>
             <p className="mt-2 flex items-start gap-2 text-sm leading-6 text-slate-600"><MapPin size={16} className="mt-1 shrink-0 text-[#0785ad]" />{companyContact.address}</p>
           </div>
           <div className="flex flex-wrap gap-3">

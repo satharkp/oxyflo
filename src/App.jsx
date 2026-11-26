@@ -1,6 +1,7 @@
 import { RouterProvider, useRouter } from './router/Router';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
+import MobileContact from './components/layout/MobileContact';
 
 import HomePage from './pages/HomePage';
 import ProductsPage from './pages/ProductsPage';
@@ -46,6 +47,7 @@ function PageContent() {
         {renderCurrentPage()}
       </main>
       <Footer />
+      <MobileContact />
     </div>
   );
 }

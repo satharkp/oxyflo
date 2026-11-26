@@ -34,7 +34,7 @@ export default function ResourceDownloads() {
                   >
                     <FileText size={20} className="text-cyan-300" />
                   </span>
-                  <span className="text-[11px] font-bold text-[#0995c2] font-mono">{doc.format}</span>
+                  <span className="text-[13px] font-bold text-[#0995c2] font-mono">{doc.format}</span>
                 </div>
                 <h4 className="font-heading text-sm font-bold text-slate-900 group-hover:text-[#0995c2] transition">
                   {doc.title}

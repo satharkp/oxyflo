@@ -13,7 +13,7 @@ export default function AboutSection() {
           <span className="absolute bottom-4 left-4 rounded-lg bg-white/95 px-3 py-2 text-xs font-semibold text-[#0e323a] shadow-sm">Hadhi Aqua Lines · Palakkad, Kerala</span>
         </div>
         <div>
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">About OxyFlo</p>
+          <p className="text-[13px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">About OxyFlo</p>
           <h2 className="mt-2 max-w-xl font-heading text-3xl font-bold leading-tight text-[#0e323a] sm:text-4xl">Roofing that brings design and protection together.</h2>
           <p className="mt-4 max-w-xl text-sm leading-7 text-slate-600">OxyFlo is the roofing range from Hadhi Aqua Lines. We offer stone-coated steel profiles and layered UPVC sheets for homes, commercial buildings, and industrial projects.</p>
           <ul className="mt-6 space-y-3">

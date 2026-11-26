@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <>
       <div className="hidden bg-[#08252c] text-slate-200 sm:block">
-        <div className="mx-auto flex max-w-[1380px] items-center justify-between px-5 py-2 text-[11px] sm:px-8">
+        <div className="mx-auto flex max-w-[1380px] items-center justify-between px-5 py-2 text-[13px] sm:px-8">
           <span>Roofing systems by Hadhi Aqua Lines · Palakkad, Kerala</span>
           <a href={`tel:${companyContact.customerCareRaw}`} className="inline-flex items-center gap-2 font-semibold text-white hover:text-cyan-200">
             <Phone size={13} className="text-cyan-300" /> {companyContact.customerCare}
@@ -41,8 +41,8 @@ export default function Navbar() {
             <Link href="/estimator" className="hidden items-center gap-2 rounded-xl px-3 py-2.5 text-sm font-semibold text-[#29464d] transition hover:bg-slate-50 md:inline-flex">
               <Calculator size={16} className="text-[#0785ad]" /> Estimator
             </Link>
-            <Link href="/contact" onClick={closeMenu} className="inline-flex items-center gap-2 rounded-xl bg-[#078eb7] px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-[#087b9e] sm:px-5">
-              Get a quote <ArrowRight size={15} />
+            <Link href="/contact" onClick={closeMenu} className="inline-flex min-h-11 items-center gap-1.5 rounded-xl bg-[#078eb7] px-2.5 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-[#087b9e] sm:gap-2 sm:px-5">
+              <span className="sm:hidden">Quote</span><span className="hidden sm:inline">Get a quote</span> <ArrowRight size={15} />
             </Link>
             <button
               type="button"

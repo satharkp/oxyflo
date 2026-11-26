@@ -122,7 +122,7 @@ export default function ProductDetailPage() {
                         />
                         <div className="min-w-0">
                           <div className="text-xs font-bold text-slate-800 truncate">{c.name}</div>
-                          <div className="text-[10px] font-mono text-slate-400">{c.hex}</div>
+                          <div className="text-[13px] font-mono text-slate-400">{c.hex}</div>
                         </div>
                       </button>
                     );
@@ -268,11 +268,11 @@ export default function ProductDetailPage() {
                     className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
                   />
                 </div>
-                <span className="text-[10px] font-bold uppercase text-[#0995c2]">{rel.tag}</span>
+                <span className="text-[13px] font-bold uppercase text-[#0995c2]">{rel.tag}</span>
                 <h4 className="font-heading text-sm font-extrabold text-[#0e323a] group-hover:text-[#0995c2] transition mt-1">
                   {rel.name}
                 </h4>
-                <p className="text-[11px] text-slate-500 line-clamp-2 mt-1">{rel.overview}</p>
+                <p className="text-[13px] text-slate-500 line-clamp-2 mt-1">{rel.overview}</p>
                 <span className="mt-auto pt-3 text-xs font-bold text-[#0995c2] inline-flex items-center gap-1">
                   <span>Explore Specs</span>
                   <span>→</span>

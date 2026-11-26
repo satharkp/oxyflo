@@ -7,7 +7,7 @@ export default function TechnologySection() {
     <section className="bg-[#f5f8f8] py-16 sm:py-20" id="technology">
       <div className="mx-auto max-w-[1380px] px-5 sm:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">
+          <span className="text-[13px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">
             Inside the roof sheet
           </span>
           <h2 className="mt-2 font-heading text-2xl font-bold tracking-tight text-[#0e323a] sm:text-3xl">

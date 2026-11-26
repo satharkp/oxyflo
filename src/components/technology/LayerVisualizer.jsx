@@ -75,7 +75,7 @@ export default function LayerVisualizer() {
                   </span>
                   <h4 className="min-w-0 break-words font-heading text-sm font-semibold leading-5 text-slate-900">{layer.name}</h4>
                 </div>
-                <span className="text-[11px] font-bold font-mono text-[#0995c2] shrink-0">{layer.thickness}</span>
+                <span className="text-[13px] font-bold font-mono text-[#0995c2] shrink-0">{layer.thickness}</span>
               </div>
               {activeLayer === idx && (
                 <p className="mt-2.5 pl-10 text-xs leading-relaxed text-slate-700 font-normal">{layer.desc}</p>

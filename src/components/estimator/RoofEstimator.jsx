@@ -58,7 +58,7 @@ export default function RoofEstimator() {
       <div className="mx-auto max-w-[1380px] px-4 sm:px-8">
         <div className="mb-8 flex flex-col justify-between gap-4 sm:mb-12 md:flex-row md:items-end">
           <div>
-            <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">
+            <span className="text-[13px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">
               Planning tool
             </span>
             <h2 className="mt-2 font-heading text-2xl font-bold tracking-tight text-[#0e323a] sm:text-3xl">
@@ -124,7 +124,7 @@ export default function RoofEstimator() {
                 onChange={(e) => setCalcArea(Number(e.target.value))}
                 className="w-full cursor-pointer h-2 bg-slate-200 rounded-lg accent-[#0995c2]"
               />
-              <div className="mt-1.5 flex justify-between text-[11px] font-medium text-slate-500">
+              <div className="mt-1.5 flex justify-between text-[13px] font-medium text-slate-500">
                 <span>500 sq ft</span><span>50,000 sq ft</span>
               </div>
             </div>
@@ -191,10 +191,10 @@ export default function RoofEstimator() {
           >
             <div>
               <div className="flex items-center justify-between border-b border-white/15 pb-4">
-                <span className="text-[11px] font-bold uppercase tracking-[0.15em] text-cyan-200">
+                <span className="text-[13px] font-bold uppercase tracking-[0.15em] text-cyan-200">
                   Your starting point
                 </span>
-                <span className="flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[11px] font-semibold text-slate-200">
+                <span className="flex items-center gap-1.5 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-[13px] font-semibold text-slate-200">
                   <ShieldCheck size={13} /> OxyFlo systems
                 </span>
               </div>

@@ -159,7 +159,7 @@ export default function TechnologyPage() {
 
             <div className="grid gap-6 sm:grid-cols-3">
               <div className="rounded-2xl border border-slate-200 bg-[#f8fafb] p-5">
-                <span className="text-[10px] font-bold uppercase text-[#0995c2]">UPVC Wave Profile</span>
+                <span className="text-[13px] font-bold uppercase text-[#0995c2]">UPVC Wave Profile</span>
                 <h4 className="font-heading text-base font-extrabold text-[#0e323a] mt-1">
                   UPVC Spanish Wave (28mm)
                 </h4>
@@ -172,7 +172,7 @@ export default function TechnologyPage() {
               </div>
 
               <div className="rounded-2xl border border-slate-200 bg-[#f8fafb] p-5">
-                <span className="text-[10px] font-bold uppercase text-[#0995c2]">UPVC Deep Rib</span>
+                <span className="text-[13px] font-bold uppercase text-[#0995c2]">UPVC Deep Rib</span>
                 <h4 className="font-heading text-base font-extrabold text-[#0e323a] mt-1">
                   UPVC Trapezoidal (25mm)
                 </h4>
@@ -185,7 +185,7 @@ export default function TechnologyPage() {
               </div>
 
               <div className="rounded-2xl border border-slate-200 bg-[#f8fafb] p-5">
-                <span className="text-[10px] font-bold uppercase text-[#0995c2]">Stone-Coated Steel</span>
+                <span className="text-[13px] font-bold uppercase text-[#0995c2]">Stone-Coated Steel</span>
                 <h4 className="font-heading text-base font-extrabold text-[#0e323a] mt-1">
                   Roman, Bond, Shingle, Tudor
                 </h4>

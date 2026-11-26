@@ -51,7 +51,7 @@ export default function ProjectsPage() {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-[#06171b]/90 via-transparent to-transparent opacity-80 group-hover:opacity-95 transition-opacity" />
                 <div className="absolute bottom-4 left-5 right-5 text-white">
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-cyan-300">
+                  <span className="text-[13px] font-bold uppercase tracking-wider text-cyan-300">
                     {photo.profile}
                   </span>
                   <h4 className="font-heading text-base font-extrabold text-white mt-0.5">

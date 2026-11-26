@@ -9,10 +9,10 @@ export default function ProductCard({ item }) {
     <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_4px_18px_rgba(8,37,44,0.04)] transition duration-300 hover:-translate-y-1 hover:border-cyan-700/40 hover:shadow-[0_16px_36px_rgba(8,37,44,0.12)]">
       <Link href={`/products/${item.id}`} className="relative block aspect-[4/3] overflow-hidden bg-[#e8f0f2]">
         <img src={item.image} alt={item.name} loading="lazy" className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.04]" />
-        <span className="absolute left-4 top-4 rounded-full bg-white/95 px-3 py-1.5 text-[11px] font-bold text-[#0e323a] shadow-sm backdrop-blur">{item.badge}</span>
+        <span className="absolute left-4 top-4 rounded-full bg-white/95 px-3 py-1.5 text-[13px] font-bold text-[#0e323a] shadow-sm backdrop-blur">{item.badge}</span>
       </Link>
       <div className="flex min-w-0 flex-1 flex-col p-4 sm:p-5">
-        <p className="text-[11px] font-bold uppercase tracking-[0.11em] text-[#0785ad]">{item.tag}</p>
+        <p className="text-[13px] font-bold uppercase tracking-[0.11em] text-[#0785ad]">{item.tag}</p>
         <Link href={`/products/${item.id}`} className="mt-2 rounded-sm text-[#0e323a] hover:text-[#0785ad]">
           <h3 className="font-heading text-lg font-bold leading-snug sm:text-xl">{item.name}</h3>
         </Link>
@@ -32,7 +32,7 @@ export default function ProductCard({ item }) {
               <span className="text-xs text-slate-500">Available colors</span>
               <div className="flex items-center gap-1.5" aria-label={`${item.colors.length} color options`}>
                 {item.colors.slice(0, 5).map((color) => <span key={color.name} title={color.name} className="h-4 w-4 rounded-full border border-white ring-1 ring-slate-300" style={{ backgroundColor: color.hex }} />)}
-                {item.colors.length > 5 && <span className="text-[10px] font-semibold text-slate-500">+{item.colors.length - 5}</span>}
+                {item.colors.length > 5 && <span className="text-[13px] font-semibold text-slate-500">+{item.colors.length - 5}</span>}
               </div>
             </div>
           )}

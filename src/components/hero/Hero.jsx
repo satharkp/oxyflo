@@ -5,7 +5,7 @@ const highlights = ['Stone-coated steel', '4-layer UPVC', 'Profiles for every ro
 
 export default function Hero() {
   return (
-    <section className="relative isolate min-h-[620px] overflow-hidden bg-[#08252c] text-white sm:min-h-[680px] lg:min-h-[720px]">
+    <section className="relative isolate min-h-[560px] overflow-hidden bg-[#08252c] text-white sm:min-h-[680px] lg:min-h-[720px]">
       <img
         src="/oxyflo-roof-hero.jpg"
         alt="A completed OxyFlo roof installation in terracotta and charcoal profiles"
@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#061a1f]/95 via-[#061a1f]/78 to-[#061a1f]/20" />
       <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#061a1f]/55 via-transparent to-[#061a1f]/10" />
 
-      <div className="mx-auto flex min-h-[620px] max-w-[1380px] items-center px-5 py-20 sm:min-h-[680px] sm:px-8 lg:min-h-[720px]">
+      <div className="mx-auto flex min-h-[560px] max-w-[1380px] items-center px-4 py-16 sm:min-h-[680px] sm:px-8 sm:py-20 lg:min-h-[720px]">
         <div className="max-w-2xl">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold tracking-wide text-white backdrop-blur-sm">
             <span className="h-2 w-2 rounded-full bg-cyan-300" />

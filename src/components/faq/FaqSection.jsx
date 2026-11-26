@@ -9,7 +9,7 @@ export default function FaqSection() {
     <section className="border-t border-slate-200 bg-[#f5f8f8] py-16 sm:py-20">
       <div className="mx-auto max-w-3xl px-5 sm:px-8">
         <div className="mb-8">
-          <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">Helpful answers</span>
+          <span className="text-[13px] font-bold uppercase tracking-[0.16em] text-[#0785ad]">Helpful answers</span>
           <h2 className="mt-2 font-heading text-2xl font-bold text-[#0e323a] sm:text-3xl">Frequently asked questions</h2>
         </div>
 
